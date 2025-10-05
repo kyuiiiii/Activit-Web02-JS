@@ -1,0 +1,65 @@
+table, th, td {
+    border:1px solid black;
+    text-align: center;
+}
+
+th{
+    background-color: #696969;
+    color:white;
+}
+
+img{
+    width:75px;
+    height:75px;
+}
+
+.container{
+    display:inline-block;
+}
+.google{
+    width:400px;
+    height:134px;
+}
+
+.slider{
+    accent-color: blue;
+}
+
+.choix{
+    display:inline-block;
+}
+
+progress[value]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;  
+    border: none;
+    margin: 0 10px;
+    border-radius: 10em;
+    border:solid 1px;;
+}
+progress[value]::-webkit-progress-bar {
+    border-radius: 10em;
+    background: lightgrey;
+}
+progress[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: rgb(0, 102, 255);
+}
+
+.dl{
+    width:300px;
+    height:5px;
+}
+
+.space[value]::-webkit-progress-value {
+    border-radius: 10em;
+    background: rgb(0, 163, 0);
+}
+
+hr {
+    border:none;
+    height:3px;
+    background-color: #696969;
+
+}
