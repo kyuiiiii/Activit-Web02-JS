@@ -6,6 +6,7 @@
     </head>
 
     <body>
+        <!--Convertisseurs-->
         <div class="container">
             <h2>Première Version Convertisseur</h2>
             <table>
@@ -69,31 +70,38 @@
         <h1>Des éléments !</h1>
         <input type="text" id="pas" name="pas" placeholder="Vos premiers pas en JavaScript"/><br>
         
+        <!--Boutons Radio-->
         <p>
             <input id="c1" class="choix" type="radio" name="choix" value="1"/><label id="choix1">Choix n°1</label>
             <input id="c2" class="choix" type="radio" name="choix" value="2" checked/><label id="choix2">Choix n°2</label>
             <input id="c3" class="choix" type="radio" name="choix" value="3"/><label id="choix3">Choix n°3</label>
         </p>
 
+        <!--Input mot de passe-->
         <input type="password" name="passw" value="secret"/><br>
         
+        <!--Slider pour volume-->
         <p>
             <input id="slider" type="range" min="1" max="100" value="50" class="slider"><label id="vol">Volume Casque</label><br>
             <span id="output"></span>
         </p>
 
+        <!--Mute-->
         <p>
             <label id="case">Une case à chocher: </label><input id="check" type="checkbox" name="case" value="c1"/>
         </p>
 
+        <!--Date-->
         <p>
             Date: <input id="date" type="date" name="date"/>
         </p>
 
+        <!--Bouton pour Oui ou Non-->
         <input id="button" type="button" name="bouton" value="Ok" onclick="msg()"/>
 
         <hr>
-
+        
+        <!--Sliders-->
         <h1>Barres de progression</h1>
         <p>
             Téléchargement en cours : <progress class="dl" id="dl" max="100" value="50"></progress>
